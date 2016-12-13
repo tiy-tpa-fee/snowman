@@ -22,7 +22,6 @@ class Snowman extends Component {
   }
 
   componentDidMount () {
-    console.log('cdm')
     const config = { alpha: false }
     const canvas = ReactDOM.findDOMNode(this)
     canvas.width = this.props.size
@@ -59,7 +58,7 @@ class Snowman extends Component {
       const skeletonJson = new spine.SkeletonJson(atlasLoader)
       const skeletonData = skeletonJson.readSkeletonData(this.assetManager.get(snowman.json))
       const skeleton = new spine.Skeleton(skeletonData)
-      // skeleton.setToSetupPose()
+      skeleton.setToSetupPose()
       skeleton.updateWorldTransform()
       const offset = new spine.Vector2()
       const size = new spine.Vector2()

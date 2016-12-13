@@ -11,7 +11,9 @@ class Word extends Component {
     return <div
       className='word'>
       {this.props.value.split('').map(letter => {
-        return <span>{this.props.guesses.includes(letter) ? letter : '_'}</span>
+        return <span key={letter}>
+          {this.props.guesses.includes(letter) ? letter : '_'}
+        </span>
       })}
     </div>
   }
