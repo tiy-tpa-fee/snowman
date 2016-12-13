@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco');
+
+$base-font-family: sans-serif;
+$base-text-size: 16px;
+
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 2em;
+  font: $base-text-size / 1 $base-font-family;
+  color: hsl(220, 75%, 30%);
+}
+
+body,
+#root,
+.app {
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.word {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 5em;
+  text-transform: uppercase;
+
+  span {
+    display: inline-block;
+    width: 0.6em;
+    text-align: center;
+  }
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.letter-button {
+  font-family: 'Futura', 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: hsl(220, 75%, 80%);
+  border: 2px solid hsl(220, 75%, 50%);
+  margin: 0.2em;
+}
+
+.letter-button:disabled {
+  opacity: 0.33;
+}

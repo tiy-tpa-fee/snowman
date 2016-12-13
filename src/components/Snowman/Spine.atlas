@@ -1,0 +1,188 @@
+
+Spine.png
+size: 1953,810
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-left
+  rotate: true
+  xy: 1383, 76
+  size: 288, 200
+  orig: 288, 200
+  offset: 0, 0
+  index: -1
+arm-left-shadow
+  rotate: true
+  xy: 891, 2
+  size: 36, 46
+  orig: 36, 46
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 1282, 366
+  size: 309, 287
+  orig: 309, 287
+  offset: 0, 0
+  index: -1
+arm-right-shadow
+  rotate: false
+  xy: 1825, 471
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+base
+  rotate: false
+  xy: 891, 332
+  size: 389, 321
+  orig: 389, 321
+  offset: 0, 0
+  index: -1
+button-bottom
+  rotate: false
+  xy: 1585, 19
+  size: 33, 27
+  orig: 33, 27
+  offset: 0, 0
+  index: -1
+button-mid
+  rotate: false
+  xy: 1334, 335
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+button-top
+  rotate: false
+  xy: 939, 12
+  size: 29, 26
+  orig: 29, 26
+  offset: 0, 0
+  index: -1
+eye-left
+  rotate: false
+  xy: 1848, 483
+  size: 27, 28
+  orig: 27, 28
+  offset: 0, 0
+  index: -1
+eye-right
+  rotate: true
+  xy: 1620, 22
+  size: 24, 28
+  orig: 24, 28
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 2, 6
+  size: 802, 887
+  orig: 802, 887
+  offset: 0, 0
+  index: -1
+hat
+  rotate: true
+  xy: 1585, 93
+  size: 271, 170
+  orig: 271, 170
+  offset: 0, 0
+  index: -1
+hat-shadow
+  rotate: false
+  xy: 1585, 48
+  size: 235, 43
+  orig: 235, 43
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 1593, 375
+  size: 278, 230
+  orig: 278, 230
+  offset: 0, 0
+  index: -1
+head-shadow
+  rotate: false
+  xy: 1383, 2
+  size: 200, 72
+  orig: 200, 72
+  offset: 0, 0
+  index: -1
+mound
+  rotate: false
+  xy: 891, 655
+  size: 927, 153
+  orig: 927, 153
+  offset: 0, 0
+  index: -1
+mouth-1
+  rotate: false
+  xy: 970, 21
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+mouth-2
+  rotate: true
+  xy: 1362, 344
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: -1
+mouth-3
+  rotate: false
+  xy: 1825, 449
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+mouth-4
+  rotate: true
+  xy: 1585, 2
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+mouth-5
+  rotate: true
+  xy: 1620, 2
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+nose
+  rotate: false
+  xy: 1282, 332
+  size: 50, 32
+  orig: 50, 32
+  offset: 0, 0
+  index: -1
+scarf
+  rotate: true
+  xy: 1202, 27
+  size: 303, 179
+  orig: 303, 179
+  offset: 0, 0
+  index: -1
+scarf-shadow
+  rotate: true
+  xy: 1757, 104
+  size: 269, 136
+  orig: 269, 136
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 891, 40
+  size: 309, 290
+  orig: 309, 290
+  offset: 0, 0
+  index: -1
+torso-shadow
+  rotate: true
+  xy: 1825, 513
+  size: 295, 126
+  orig: 295, 126
+  offset: 0, 0
+  index: -1
