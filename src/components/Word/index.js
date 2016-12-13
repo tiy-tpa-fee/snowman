@@ -10,8 +10,8 @@ class Word extends Component {
   render () {
     return <div
       className='word'>
-      {this.props.value.split('').map(letter => {
-        return <span key={letter}>
+      {this.props.value.split('').map((letter, i) => {
+        return <span key={i}>
           {this.props.guesses.includes(letter) ? letter : '_'}
         </span>
       })}

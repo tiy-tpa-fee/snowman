@@ -8,9 +8,9 @@ html {
 }
 
 body {
-  margin: 2em;
   font: $base-text-size / 1 $base-font-family;
   color: hsl(220, 75%, 30%);
+  margin: 0;
 }
 
 body,
@@ -21,9 +21,23 @@ body,
 
 .app {
   display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+footer {
+  font-family: 'Sue Ellen Francisco', cursive;
+  font-size: 2em;
+  margin: 1em;
+  text-align: center;
+  opacity: 0.25;
 }
 
 .word {

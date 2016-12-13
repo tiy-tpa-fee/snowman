@@ -31,16 +31,19 @@ class App extends Component {
 
   render () {
     return <div className='app'>
-      <Snowman step={this.points} size={400} />
-      {/* TODO */}
-      <Word value='snowman' guesses={['e', 'm', 'o']} />
-      <div className='keyboard'>
+      <main>
+        <Snowman step={this.points} size={400} />
         {/* TODO */}
-        <LetterButton
-          value='A'
-          onChoose={() => this.choose('A')}
-          disabled={false} />
-      </div>
+        <Word value='SNOWMAN' guesses={['E', 'M', 'O']} />
+        <div className='keyboard'>
+          {/* TODO */}
+          <LetterButton
+            value='A'
+            onChoose={() => this.choose('A')}
+            disabled={false} />
+        </div>
+      </main>
+      <footer>It's like hangman, but, um... backwards or something.</footer>
     </div>
   }
 }
