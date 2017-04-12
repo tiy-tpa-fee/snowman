@@ -3,6 +3,7 @@ import _ from 'lodash'
 import LetterButton from './LetterButton'
 import Snowman from './Snowman'
 import Word from './Word'
+import Button from './Button'
 
 // ALPHABET is an array of 26 letters, 'a' through 'z', i.e. ['a', 'b', 'c', ...'z']
 const ALPHABET = _.range(26).map(i => String.fromCharCode(i + 97))
@@ -18,8 +19,7 @@ class App extends Component {
 
   choose (letter) {
     this.setState({
-      guesses: [...this.state.guesses, letter],
-      counter: 0
+      guesses: [...this.state.guesses, letter]
     })
   }
 
@@ -27,6 +27,10 @@ class App extends Component {
     return this.state.word.split('').filter((letter) => {
       return this.state.guesses.includes(letter)
     }).length
+  }
+
+  reset = () => {
+    this.setState({ guesses: [], word: _.sample(WORDS) })
   }
 
   render () {
@@ -45,6 +49,7 @@ class App extends Component {
         <div className='keyboard'>
           {letter}
         </div>
+        <Button reset={this.reset} />
       </main>
       <footer>It's like hangman, but, um... backwards or something.</footer>
     </div>
